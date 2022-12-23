@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Table
+@Table(name = "menus")
 public class Menu {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
